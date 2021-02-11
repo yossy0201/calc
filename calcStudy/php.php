@@ -25,7 +25,7 @@
       }
 
       //計算結果を表示
-      print ($number1." ".$calcType." ".$number2." = ".$answer."\n");
+      print ($answer."\n");
     ?>
     
    
