@@ -49,7 +49,7 @@
   
    
   </body>
-  </html>
+  </html>解答:
       <?php
-      print 解答:($answer."\n");
+      print($answer."\n");
       ?>
