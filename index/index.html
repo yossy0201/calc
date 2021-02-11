@@ -20,23 +20,24 @@
 </head>
 <body>
 <div id="contents">
-<form action ="" method="post">
+<form action ="php.php" method="post">
   数字1<input type="text" class="num1" name="number1" value=""><br>
   数字2<input type="text" class="num2" name="number2" value=""><br>
   計算方法
    
    <select class="name" name="calcType">
-     <option value="">
+     <option value="plus">
+
       ＋
      </option>
-     <option value="">
+     <option value="minus">
       −
     </option>
-    <option value="">
+    <option value="multiplication">
       ×
     </option>
    </select><br>
-   <input type="submit" class ="button" name="action" value="計算する"></button>
+   <input type="submit" class ="button" name="result" value="計算する"></button>
   </form>
   <p id="answer">解答：[]</p>
   <textarea>
