@@ -25,7 +25,8 @@
       }
 
       //計算結果を表示
-      print 解答:($answer."\n");
+      解答:
+      print ($answer."\n");
     ?>
     
    
