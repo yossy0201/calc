@@ -51,5 +51,5 @@
   </body>
   </html>
       <?php
-      print ($answer."\n");
+      print 解答:($answer."\n");
       ?>
