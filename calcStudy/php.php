@@ -11,7 +11,7 @@
 
       //セレクトボックスによって処理を変える
       switch ($calcType) {
-        case "plus":
+        case "＋":
           $answer = $number1 + $number2;
           break;
         case "minus":
