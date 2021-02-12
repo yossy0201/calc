@@ -4,7 +4,10 @@
   </head>
   <body>
 <?php
-$_POST ['title']
+$title = $_POST ['title'];
+?>
+<?php
+  print($title."\n");
 ?>
   </body>
 </html>
