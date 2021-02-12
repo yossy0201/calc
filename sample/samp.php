@@ -7,7 +7,7 @@
 $title = $_POST ['title'];
 ?>
 <?php
-  print($title."\n");
+  print($title);
 ?>
   </body>
 </html>
