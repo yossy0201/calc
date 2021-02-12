@@ -1,1 +1,3 @@
-$_POST['title']
+<?php
+$_POST ['title']
+?>
