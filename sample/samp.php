@@ -9,9 +9,9 @@ $name = $_POST ['name'];
 $title = $_POST ['title'];
 ?>
 <?php
-  print($gender);
-  print($name);
-  print($title);
+  print($gender);<br>
+  print($name);<br>
+  print($title);<br>
 ?>
   </body>
 </html>
