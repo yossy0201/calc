@@ -1,1 +1,1 @@
-$_POST['text']
+$_POST['title']
