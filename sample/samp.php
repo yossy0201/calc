@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>calc.php</title>
+    <title>welcome</title>
   </head>
   <body>
 <?php
