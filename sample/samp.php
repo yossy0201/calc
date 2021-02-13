@@ -8,6 +8,7 @@ $gender = $_POST ['gender'];
 $name=$_POST['name'];
 $age = $_POST ['age'];
 $address=$_POST['address'];
+$area = $_POST['area'];
 $title = $_POST ['title'];
 ?>
 <div class="one">性別:
