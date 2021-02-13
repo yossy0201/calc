@@ -13,7 +13,7 @@ $title = $_POST ['title'];
   print($gender);
  ?>
 </div>
-<div class="one">
+<div class="one">才
  <?php 
   print($name);
  ?>
