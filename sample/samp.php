@@ -4,7 +4,11 @@
   </head>
   <body>
 <?php
+//性別
 $gender = $_POST ['gender'];
+if ($gender == ”男性”) {
+  $gender = "男性";
+}
 $name=$_POST['name'];
 $age = $_POST ['age'];
 $address=$_POST['address'];
@@ -47,6 +51,14 @@ $title = $_POST ['title'];
  <?php 
   print($title);
  ?>
+</div>
+
+<div class="nextPage">
+  <a href="endPage.html">この内容で確定</a>
+</div>
+
+<div class="nextPage">
+  <a href="samp.html">修正する</a>
 </div>
 
   </body>
