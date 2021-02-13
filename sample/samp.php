@@ -8,7 +8,7 @@ $gender = $_POST ['gender'];
 $name = $_POST ['name'];
 $title = $_POST ['title'];
 ?>
-<div class="one">
+<div class="one">性別
  <?php 
   print($gender);
  ?>
@@ -18,7 +18,7 @@ $title = $_POST ['title'];
   print($name);
  ?>才
 </div>
-<div class="one">
+<div class="one">ご要望について
  <?php 
   print($title);
  ?>
