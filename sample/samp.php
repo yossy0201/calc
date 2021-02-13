@@ -13,9 +13,15 @@ $title = $_POST ['title'];
   print($gender);
  ?>
 </div>
-<?php
+<div class="one">
+ <?php 
   print($name);
+ ?>
+</div>
+<div class="one">
+ <?php 
   print($title);
-?>
+ ?>
+</div>
   </body>
 </html>
