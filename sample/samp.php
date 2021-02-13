@@ -5,7 +5,9 @@
   <body>
 <?php
 $gender = $_POST ['gender'];
-$name = $_POST ['name'];
+$name=$_POST['name'];
+$age = $_POST ['age'];
+$address=$_POST['address'];
 $title = $_POST ['title'];
 ?>
 <div class="one">性別:
@@ -15,7 +17,7 @@ $title = $_POST ['title'];
 </div>
 <div class="one">年齢:
  <?php 
-  print($name);
+  print($age);
  ?>才
 </div>
 <div class="one">ご要望について:
