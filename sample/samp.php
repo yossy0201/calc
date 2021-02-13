@@ -8,8 +8,12 @@ $gender = $_POST ['gender'];
 $name = $_POST ['name'];
 $title = $_POST ['title'];
 ?>
-<?php
+<div class="one">
+ <?php 
   print($gender);
+ ?>
+</div>
+<?php
   print($name);
   print($title);
 ?>
