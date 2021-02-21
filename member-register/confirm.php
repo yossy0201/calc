@@ -7,7 +7,11 @@
     登録名は<br>
     <?php 
     $name=$_POST["name"]
-    ?>になります<br>
+    ?>
+    <?php
+    $_echo ["name"]
+    ?>
+    になります<br>
     よろしいですか？<br>
     <form action="done.php" method="POST">
     <p><input type="submit" value="はい"></p>
