@@ -13,6 +13,13 @@
     ?>
     になります<br>
     よろしいですか？<br>
+
+    <?php 
+    $dsn='mysql:host=localhost;dbname='member-register';charset=utf8';
+    $user='name';
+    $password='yossy0201';
+    ?>
+    
     <form action="done.php" method="POST">
     <p><input type="submit" value="はい"></p>
     <p><input type="submit" value="いいえ"></p>
