@@ -5,8 +5,7 @@
   </head>
   <body>
     登録が完了しました。
-    <form action="topmenu.html" method="POST">
-    <p><input type="submit" value="戻る"></p>
+    <a href="topmenu.html">戻る</p>
   </form>
   </body>
 </html>
