@@ -9,7 +9,7 @@
     $name=$_POST["name"]
     ?>
     <?php
-    $_echo ["name"]
+    print $name;
     ?>
     になります<br>
     よろしいですか？<br>
